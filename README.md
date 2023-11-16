@@ -1,0 +1,2 @@
+# wfl
+Wayland Favorites List

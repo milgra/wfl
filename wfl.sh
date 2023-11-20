@@ -60,7 +60,7 @@ kuid -v <&3 | while IFS= read -r line; do
 		echo "toggle visibility" >&3
 	    elif [ ${words[3]} == "item5labelback" ]
 	    then
-		swaymsg exec libreoffic
+		swaymsg exec libreoffice
 		echo "toggle visibility" >&3
 	    elif [ ${words[3]} == "item6labelback" ]
 	    then

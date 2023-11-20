@@ -16,7 +16,7 @@ kuid -v <&3 | while IFS= read -r line; do
 	then
 	    # init layer
 	    echo "create layer width 300 height 295 anchor lt margin 10" >&3
-	    echo "load html src ~/.config/wfl/main.html" >&3
+	    echo "load html src ~/.config/wfl/res/main.html" >&3
 
 	    echo "set text div item0label value GlobalProtect" >&3
 	    echo "set text div item0number value 0" >&3

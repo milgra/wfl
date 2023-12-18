@@ -38,23 +38,23 @@ kuid -v <&3 | while IFS= read -r line; do
 	    then
 		swaymsg exec foot
 		echo "toggle visibility" >&3
-	    elif [ ${words[3]} == "item3labelback" ]
+	    elif [ ${words[3]} == "item1labelback" ]
 	    then
 		swaymsg exec "nautilus --new-window"
 		echo "toggle visibility" >&3
-	    elif [ ${words[3]} == "item4labelback" ]
+	    elif [ ${words[3]} == "item2labelback" ]
 	    then
 		swaymsg exec chromium
 		echo "toggle visibility" >&3
-	    elif [ ${words[3]} == "item5labelback" ]
+	    elif [ ${words[3]} == "item3labelback" ]
 	    then
 		swaymsg exec libreoffice
 		echo "toggle visibility" >&3
-	    elif [ ${words[3]} == "item6labelback" ]
+	    elif [ ${words[3]} == "item4labelback" ]
 	    then
 		swaymsg exec mmfm
 		echo "toggle visibility" >&3
-	    elif [ ${words[3]} == "item7labelback" ]
+	    elif [ ${words[3]} == "item5labelback" ]
 	    then
 		swaymsg exec vmp
 		echo "toggle visibility" >&3
